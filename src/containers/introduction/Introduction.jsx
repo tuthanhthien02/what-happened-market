@@ -8,7 +8,7 @@ const Introduction = () => {
             style={{ backgroundImage: "url(img/introduction-bg.png)" }}
         >
             <div className="feature__content">
-                <h1 className="feature__title heading-2">what happened!</h1>
+                <h1 className="feature__title ">what happened!</h1>
                 <p className="feature__lead">
                     How to create mobile-optimized videos in minutes. Not a
                     designer, every team makes a lot of videos Can be trimmed.

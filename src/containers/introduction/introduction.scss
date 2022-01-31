@@ -9,6 +9,7 @@
     }
 
     &__title {
+        font-size: $text-6xl;
         color: #fff;
         text-transform: uppercase;
     }
@@ -45,10 +46,6 @@
             padding: 70px 0;
         }
 
-        &__title {
-            font-size: $text-4xl;
-        }
-
         &__lead {
             margin-top: 30px;
             max-width: 477px;
@@ -58,6 +55,19 @@
     }
 
     @media screen and (max-width: 768px) {
+        &__title {
+            font-size: $text-5xl;
+        }
+
+        &__lead {
+            margin-top: 30px;
+            max-width: 477px;
+
+            font-size: $text-sm;
+        }
+    }
+
+    @media screen and (max-width: 668px) {
         &__title {
             font-size: $text-4xl;
         }
