@@ -1,0 +1,105 @@
+.heading-1 {
+    font-size: $text-7xl;
+    line-height: 1;
+
+    &--extrabold {
+        font-weight: 800;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--semibold {
+        font-weight: 600;
+    }
+}
+
+.heading-2 {
+    font-size: $text-6xl;
+    line-height: 1.2;
+
+    &--extrabold {
+        font-weight: 800;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--semibold {
+        font-weight: 600;
+    }
+}
+
+.heading-3 {
+    font-size: $text-5xl;
+    line-height: 1.33;
+    font-weight: normal;
+
+    &--extrabold {
+        font-weight: 800;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--semibold {
+        font-weight: 600;
+    }
+}
+
+.heading-4 {
+    font-size: $text-4xl;
+    line-height: 1.67;
+    font-weight: normal;
+
+    &--extrabold {
+        font-weight: 800;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--semibold {
+        font-weight: 600;
+    }
+}
+
+.heading-5 {
+    font-size: $text-3xl;
+    line-height: 1.09;
+    font-weight: normal;
+
+    &--extrabold {
+        font-weight: 800;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--semibold {
+        font-weight: 600;
+    }
+}
+
+.heading-6 {
+    font-size: $text-2xl;
+    line-height: 1.09;
+    font-weight: normal;
+
+    &--extrabold {
+        font-weight: 800;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--semibold {
+        font-weight: 600;
+    }
+}
