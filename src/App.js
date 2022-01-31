@@ -1,15 +1,16 @@
-import logo from "./logo.svg";
+import React from "react";
+
+import { Navbar } from "./components";
+import { Header, Feature, BestProduct } from "./containers";
 import "./App.scss";
 
 function App() {
     return (
         <div className="App">
-            <h1 className="heading-1">Hello there</h1>
-            <h1 className="heading-2">Hello there</h1>
-            <h1 className="heading-3">Hello there</h1>
-            <h1 className="heading-4">Hello there</h1>
-            <h1 className="heading-5">Hello there</h1>
-            <h1 className="heading-6">Hello there</h1>
+            <Navbar />
+            <Header />
+            <Feature />
+            <BestProduct />
         </div>
     );
 }

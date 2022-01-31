@@ -1,0 +1,125 @@
+@import "../../styles/styles.scss";
+
+.navbar {
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 97px;
+    padding-right: 120px;
+
+    background: #111111;
+    z-index: 10;
+
+    &__logo {
+        padding-top: 27px;
+        padding-bottom: 27px;
+        z-index: 10;
+    }
+
+    &__menu-container {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: -100%;
+        bottom: 0;
+
+        width: 100vw;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+
+        transition: all $transition-speed ease-in-out;
+        z-index: 5;
+    }
+
+    &__menu-container--slide-down {
+        top: 80px;
+    }
+
+    &__menu-button {
+        background: transparent;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__links-container {
+        display: flex;
+    }
+
+    &__nav-link {
+        padding: 0 35px;
+        text-transform: uppercase;
+        font-size: $text-sm;
+        font-weight: 400;
+    }
+
+    &__nav-link--border-left {
+        border-left: 1px solid #fff;
+    }
+
+    &__menu {
+        display: none;
+    }
+
+    @media screen and (max-width: 1300px) {
+        padding-right: 60px;
+
+        &__links-container {
+            display: none;
+        }
+
+        &__menu {
+            display: block;
+        }
+
+        &__menu-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__menu-container-links {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 120px 0;
+        }
+
+        &__menu-link {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: $text-xl;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-left: 50px;
+        padding-right: 20px;
+
+        &__logo {
+            img {
+                width: 190px;
+            }
+        }
+
+        &__menu-link {
+            font-weight: 600;
+            font-size: $text-lg;
+        }
+    }
+
+    @media screen and (max-width: 675px) {
+        &__logo {
+            img {
+                width: 170px;
+            }
+        }
+    }
+}

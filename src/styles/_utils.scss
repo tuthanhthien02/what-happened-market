@@ -103,3 +103,27 @@
         font-weight: 600;
     }
 }
+
+.section__padding {
+    padding: 0 174px;
+
+    @media screen and (max-width: 1300px) {
+        padding: 0 144px;
+    }
+
+    @media screen and (max-width: 1100px) {
+        padding: 0 124px;
+    }
+
+    @media screen and (max-width: 1100px) {
+        padding: 0 124px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 80px;
+    }
+
+    @media screen and (max-width: 576px) {
+        padding: 0 50px;
+    }
+}

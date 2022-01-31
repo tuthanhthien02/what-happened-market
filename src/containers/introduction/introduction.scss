@@ -1,0 +1,72 @@
+@import "../../styles/styles.scss";
+
+.feature {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content {
+        padding: 100px 0;
+    }
+
+    &__title {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    &__lead {
+        margin-top: 59px;
+        max-width: 677px;
+
+        font-size: $text-xl;
+        font-weight: 400;
+        line-height: 1.75;
+        color: #fff;
+    }
+
+    @media screen and (max-width: 1300px) {
+        &__content {
+            padding: 80px 0;
+        }
+
+        &__title {
+            font-size: $text-5xl;
+        }
+
+        &__lead {
+            margin-top: 40px;
+            max-width: 577px;
+
+            font-size: $text-lg;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        &__content {
+            padding: 70px 0;
+        }
+
+        &__title {
+            font-size: $text-4xl;
+        }
+
+        &__lead {
+            margin-top: 30px;
+            max-width: 477px;
+
+            font-size: $text-base;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        &__title {
+            font-size: $text-4xl;
+        }
+
+        &__lead {
+            margin-top: 30px;
+            max-width: 477px;
+
+            font-size: $text-sm;
+        }
+    }
+}

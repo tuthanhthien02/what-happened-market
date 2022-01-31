@@ -28,6 +28,8 @@ $text-5xl: 45px;
 $text-6xl: 50px;
 $text-7xl: 55px;
 
+$transition-speed: 300ms;
+
 ::root {
     --text-primary-900: hsl(47, 70%, 4%);
     --text-primary-800: hsl(0, 0%, 7%);
