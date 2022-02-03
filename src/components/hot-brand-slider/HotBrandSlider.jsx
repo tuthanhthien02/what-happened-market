@@ -17,11 +17,11 @@ const HotBrand = ({
     return isImageSlide ? (
         <div className="hot-brand-slider__item">
             <div className="hot-brand-slider__item-heading">
-                <h1 className="hot-brand-slider__item-title">b brand</h1>
+                <h1 className="hot-brand-slider__item-title">{brandName}</h1>
             </div>
             <div className="hot-brand-slider__item-content">
                 <div className="hot-brand-slider__item-image">
-                    <img src="img/news-img-03.png" alt="" />
+                    <img src={image} alt="" />
                 </div>
             </div>
             <div
@@ -118,29 +118,29 @@ const HotBrandSlider = () => {
                             bottom={imageDecoList[0].bottom}
                         />
                         <HotBrand
-                            brandName="brand b"
+                            brandName="b brand"
                             imageDeco={imageDecoList[1].imageDeco}
-                            image="null"
+                            image="img/news-img-05.png"
                             isImageSlide={true}
                             top={imageDecoList[1].top}
                             left={imageDecoList[1].left}
                         />
                         <HotBrand
-                            brandName="brand b"
-                            image="null"
+                            brandName="c brand"
+                            image="img/news-img-03.png"
                             isImageSlide={true}
                         />
                         <HotBrand
-                            brandName="brand b"
+                            brandName="d brand"
                             imageDeco={imageDecoList[2].imageDeco}
-                            image="null"
+                            image="img/news-img-04.png"
                             isImageSlide={true}
                             right={imageDecoList[2].right}
                             bottom={imageDecoList[2].bottom}
                         />
                         <HotBrand
-                            brandName="brand b"
-                            image="null"
+                            brandName="e brand"
+                            image="img/news-img-05.png"
                             isImageSlide={true}
                         />
                     </Slider>
@@ -157,29 +157,29 @@ const HotBrandSlider = () => {
                             bottom={imageDecoList[0].bottom}
                         />
                         <HotBrand
-                            brandName="brand b"
+                            brandName="b brand"
                             imageDeco={imageDecoList[1].imageDeco}
-                            image="null"
+                            image="img/news-img-05.png"
                             isImageSlide={true}
                             top={imageDecoList[1].top}
                             left={imageDecoList[1].left}
                         />
                         <HotBrand
-                            brandName="brand b"
-                            image="null"
+                            brandName="c brand"
+                            image="img/news-img-03.png"
                             isImageSlide={true}
                         />
                         <HotBrand
-                            brandName="brand b"
+                            brandName="d brand"
                             imageDeco={imageDecoList[2].imageDeco}
-                            image="null"
+                            image="img/news-img-04.png"
                             isImageSlide={true}
                             right={imageDecoList[2].right}
                             bottom={imageDecoList[2].bottom}
                         />
                         <HotBrand
-                            brandName="brand b"
-                            image="null"
+                            brandName="e brand"
+                            image="img/news-img-05.png"
                             isImageSlide={true}
                         />
                     </>

@@ -535,14 +535,6 @@
     }
 
     @media screen and (max-width: $breakpoint-md) {
-        // &__title {
-        //     font-size: $text-5xl;
-        // }
-
-        // &__lead {
-        //     font-size: $text-lg;
-        // }
-
         &__bg-01 {
             left: 10%;
             bottom: 16%;
@@ -628,15 +620,6 @@
     @media screen and (max-width: 668px) {
         padding-left: 20px;
         padding-right: 20px;
-
-        // &__title {
-        //     font-size: $text-4xl;
-        // }
-
-        // &__lead {
-        //     margin-top: 30px;
-        //     font-size: $text-base;
-        // }
 
         &__cta {
             margin-top: 33px;
@@ -729,15 +712,6 @@
     }
 
     @media screen and (max-width: $breakpoint-sm) {
-        // &__title {
-        //     font-size: $text-4xl;
-        // }
-
-        // &__lead {
-        //     margin-top: 30px;
-        //     font-size: $text-base;
-        // }
-
         &__cta {
             margin-top: 33px;
         }
@@ -920,15 +894,6 @@
     }
 
     @media screen and (max-width: $breakpoint-xs) {
-        // &__title {
-        //     font-size: $text-4xl;
-        // }
-
-        // &__lead {
-        //     margin-top: 30px;
-        //     font-size: $text-base;
-        // }
-
         &__cta {
             margin-top: 33px;
         }
@@ -1019,15 +984,6 @@
         }
     }
     @media screen and (max-width: 350px) {
-        // &__title {
-        //     font-size: $text-4xl;
-        // }
-
-        // &__lead {
-        //     margin-top: 30px;
-        //     font-size: $text-base;
-        // }
-
         &__cta {
             margin-top: 33px;
         }
