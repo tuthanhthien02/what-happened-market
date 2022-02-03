@@ -21,6 +21,10 @@
         flex-direction: column;
     }
 
+    &__item-heading {
+        transition: all 0.2s ease-in-out;
+    }
+
     &__item:hover .hot-brand-slider__item-heading {
         background: hsl(20, 100%, 50%);
     }
@@ -45,7 +49,6 @@
         right: 0;
 
         display: flex;
-        // justify-content: center;
         align-items: center;
         flex-direction: column;
 
