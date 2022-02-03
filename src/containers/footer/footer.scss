@@ -68,6 +68,10 @@
         line-height: 1.71;
         color: $text-primary-400;
         max-width: 830px;
+
+        p {
+            margin-top: 5px;
+        }
     }
 
     &__copyright-sns {

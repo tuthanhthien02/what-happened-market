@@ -70,13 +70,17 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__copyright">
-                    <p className="footer__copyright-text">
-                        © 2020-2021 what happened corp l (주) 왓헤픈 ｜ 대표자 :
-                        홍길동 ｜ 사업자 등록번호 : 356-00-00000 ㅣ
-                        test0101@what happened.co.kr 서울특별시 강남구 도산대로
-                        8길 17 ｜ FAX : 070-0000-0000 l 서비스 이용약관 l
-                        개인정보처리방침
-                    </p>
+                    <div className="footer__copyright-text">
+                        <p>
+                            © 2020-2021 what happened corp l (주) 왓헤픈 ｜
+                            대표자 : 홍길동 ｜ 사업자 등록번호 : 356-00-00000 ㅣ
+                            test0101@what happened.co.kr
+                        </p>
+                        <p>
+                            서울특별시 강남구 도산대로 8길 17 ｜ FAX :
+                            070-0000-0000 l 서비스 이용약관 l 개인정보처리방침
+                        </p>
+                    </div>
                     <div className="footer__copyright-sns">
                         <div className="footer__copyright-image">
                             <img src="img/snsicon-01.png" alt="" />
