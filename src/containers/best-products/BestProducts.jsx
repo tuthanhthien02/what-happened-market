@@ -4,7 +4,7 @@ import "./best-products.scss";
 
 const BestProducts = () => {
     return (
-        <div
+        <section
             className="best-products section__padding"
             style={{ backgroundImage: "url(img/bes-bg.png)" }}
         >
@@ -21,7 +21,7 @@ const BestProducts = () => {
                 <BestProduct />
                 <BestProduct />
             </div>
-        </div>
+        </section>
     );
 };
 

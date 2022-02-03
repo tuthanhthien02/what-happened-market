@@ -28,7 +28,14 @@ $text-5xl: 45px;
 $text-6xl: 50px;
 $text-7xl: 55px;
 
-$transition-speed: 300ms;
+$transition-speed: 200ms;
+
+$breakpoint-xs: 390px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
 
 ::root {
     --text-primary-900: hsl(47, 70%, 4%);

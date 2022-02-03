@@ -14,7 +14,7 @@
     padding-right: 120px;
 
     background: #111111;
-    z-index: 10;
+    z-index: 50;
 
     &__logo {
         padding-top: 27px;
@@ -57,6 +57,10 @@
         text-transform: uppercase;
         font-size: $text-sm;
         font-weight: 400;
+
+        &:hover a {
+            color: $text-primary-400;
+        }
     }
 
     &__nav-link--border-left {
@@ -96,10 +100,14 @@
             text-transform: uppercase;
             font-weight: 600;
             font-size: $text-xl;
+
+            &:hover a {
+                color: $text-primary-400;
+            }
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $breakpoint-md) {
         padding-left: 50px;
         padding-right: 20px;
 
@@ -120,6 +128,12 @@
             img {
                 width: 170px;
             }
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-xs) {
+        &__menu-link {
+            font-size: $text-base;
         }
     }
 }

@@ -1,7 +1,19 @@
 import React from "react";
 
 import { Navbar } from "./components";
-import { Header, Feature, BestProducts } from "./containers";
+import {
+    Header,
+    Feature,
+    BestProducts,
+    ProductList,
+    BrandStory,
+    Issue,
+    Video,
+    Footer,
+} from "./containers";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.scss";
 
 function App() {
@@ -9,8 +21,15 @@ function App() {
         <div className="App">
             <Navbar />
             <Header />
-            <Feature />
-            <BestProducts />
+            <main className="main">
+                <Feature />
+                <BestProducts />
+                <ProductList />
+                <BrandStory />
+                <Issue />
+                <Video />
+            </main>
+            <Footer />
         </div>
     );
 }

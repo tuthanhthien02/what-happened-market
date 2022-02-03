@@ -1,0 +1,70 @@
+@import "../../styles/styles.scss";
+
+.product {
+    &__img {
+        display: block;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__info {
+        margin-top: 29px;
+    }
+
+    &__title {
+        font-size: $text-lg;
+        font-weight: 600;
+        color: $text-primary-800;
+        cursor: pointer;
+    }
+
+    &__stats {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 31px;
+
+        font-style: $text-base;
+    }
+
+    &__price {
+        font-size: $text-base;
+        color: $text-primary-700;
+    }
+
+    &__likes {
+        color: $text-primary-500;
+
+        svg {
+            color: $text-secondary-900;
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-xl) {
+        &__info {
+            margin-top: 19px;
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-md) {
+        &__title {
+            font-size: $text-base;
+        }
+
+        &__info {
+            margin-top: 15px;
+        }
+
+        &__stats {
+            margin-top: 20px;
+        }
+
+        &__price {
+            font-size: $text-sm;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+@import "../../styles/styles.scss";
+
+.footer {
+    padding-left: 101px;
+    padding-right: 101px;
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: 49px;
+        padding-bottom: 60px;
+        border-top: 1px solid #f4f4f4;
+        border-bottom: 1px solid #f4f4f4;
+    }
+
+    &__info-left {
+        flex: 1;
+    }
+
+    &__info-right {
+        display: flex;
+    }
+
+    &__info-right .footer__info-item {
+        margin-right: 116px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__info-title {
+        font-size: $text-sm;
+        font-weight: 800;
+        color: $text-primary-900;
+        margin-bottom: 22px;
+    }
+
+    &__info-lead {
+        display: block;
+
+        font-family: $ff-secondary;
+        font-size: $text-sm;
+        font-weight: 300;
+        color: $text-primary-700;
+
+        margin-top: 15px;
+        max-width: 250px;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+    }
+
+    &__copyright-text {
+        flex: 1;
+        font-family: $ff-secondary;
+        font-size: $text-sm;
+        font-weight: 300;
+        line-height: 1.71;
+        color: $text-primary-400;
+        max-width: 830px;
+    }
+
+    &__copyright-sns {
+        display: flex;
+        gap: 23px;
+        margin-right: 30px;
+    }
+
+    &__copyright-image {
+        img {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        &__info {
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        &__copyright {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-lg) {
+        padding-left: 40px;
+        padding-right: 40px;
+
+        &__info {
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        &__info-right {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 30px;
+        }
+
+        &__info-right .footer__info-item {
+            margin-right: 0;
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &__copyright-text {
+        }
+    }
+}

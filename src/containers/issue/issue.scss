@@ -1,0 +1,50 @@
+@import "../../styles/styles.scss";
+
+.issue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $bg-secondary;
+
+    &__content {
+        text-align: center;
+        margin-top: 158px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    &__title {
+        font-size: $text-5xl;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $text-primary-900;
+    }
+
+    &__lead {
+        font-family: $ff-secondary;
+        font-size: $text-base;
+        font-weight: 300;
+        line-height: 1.88;
+
+        margin-top: 49px;
+        max-width: 682px;
+        color: $text-primary-900;
+    }
+
+    &__cta {
+        margin-top: 79px;
+        margin-bottom: 128px;
+    }
+
+    @media screen and (max-width: 668px) {
+        &__title {
+            font-size: $text-4xl;
+        }
+
+        &__lead {
+            // margin-top: 59px;
+            // font-size: $text-xl;
+        }
+    }
+}

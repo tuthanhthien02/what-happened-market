@@ -1,0 +1,38 @@
+@import "../../styles/styles.scss";
+
+.btn-see-more {
+    padding: 21px 37px;
+    font-size: $text-2xl;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    border-radius: 3px;
+    border: 3px solid #020001;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: hsla(0, 4%, 43%, 0.1);
+    }
+
+    @media screen and(max-width: $breakpoint-xl) {
+        padding: 16px 32px;
+        font-size: $text-xl;
+    }
+
+    @media screen and(max-width: $breakpoint-lg) {
+        padding: 13px 29px;
+        font-size: $text-lg;
+    }
+
+    @media screen and(max-width: $breakpoint-md) {
+        padding: 11px 26px;
+        font-size: $text-lg;
+    }
+
+    @media screen and(max-width: $breakpoint-sm) {
+        padding: 9px 23px;
+        font-size: $text-base;
+    }
+}

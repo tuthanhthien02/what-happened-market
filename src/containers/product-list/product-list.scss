@@ -1,0 +1,40 @@
+@import "../../styles/styles.scss";
+
+.product-list {
+    &__container {
+        display: grid;
+        column-gap: 18px;
+        row-gap: 81px;
+
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
+        margin-top: 142px;
+    }
+
+    &__cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 116px;
+    }
+
+    @media screen and (max-width: $breakpoint-xl) {
+        &__container {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-md) {
+        &__container {
+            grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+            gap: 16px;
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+        &__container {
+            grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+            gap: 16px;
+        }
+    }
+}

@@ -105,25 +105,41 @@
 }
 
 .section__padding {
-    padding: 0 174px;
+    padding-left: 174px;
+    padding-right: 174px;
+
+    @media screen and (max-width: $breakpoint-xxl) {
+        padding-left: 154px;
+        padding-right: 154px;
+    }
 
     @media screen and (max-width: 1300px) {
-        padding: 0 144px;
+        padding-left: 144px;
+        padding-right: 144px;
     }
 
     @media screen and (max-width: 1100px) {
-        padding: 0 124px;
+        padding-left: 124px;
+        padding-right: 124px;
     }
 
-    @media screen and (max-width: 1100px) {
-        padding: 0 124px;
+    @media screen and (max-width: 968px) {
+        padding-left: 90px;
+        padding-right: 90px;
     }
 
     @media screen and (max-width: 768px) {
-        padding: 0 80px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     @media screen and (max-width: 576px) {
-        padding: 0 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    @media screen and (max-width: 390px) {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

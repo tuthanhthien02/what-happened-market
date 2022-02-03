@@ -3,7 +3,7 @@ import "./introduction.scss";
 
 const Introduction = () => {
     return (
-        <div
+        <section
             className="feature section__padding"
             style={{ backgroundImage: "url(img/introduction-bg.png)" }}
         >
@@ -16,7 +16,7 @@ const Introduction = () => {
                     mobile-optimized videos in minutes.
                 </p>
             </div>
-        </div>
+        </section>
     );
 };
 
