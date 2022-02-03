@@ -1,5 +1,5 @@
 export { default as Header } from "./header/Header";
-export { default as Feature } from "./introduction/Introduction";
+export { default as Introduction } from "./introduction/Introduction";
 export { default as BestProducts } from "./best-products/BestProducts";
 export { default as ProductList } from "./product-list/ProductList";
 export { default as BrandStory } from "./brand-story/BrandStory";

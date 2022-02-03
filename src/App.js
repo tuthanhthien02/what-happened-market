@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar } from "./components";
 import {
     Header,
-    Feature,
+    Introduction,
     BestProducts,
     ProductList,
     BrandStory,
@@ -22,7 +22,7 @@ function App() {
             <Navbar />
             <Header />
             <main className="main">
-                <Feature />
+                <Introduction />
                 <BestProducts />
                 <ProductList />
                 <BrandStory />
