@@ -1,14 +1,14 @@
 import React from "react";
 import "./best-product.scss";
 
-const BestProduct = () => {
+const BestProduct = ({ img, imgCount }) => {
     return (
         <div className="best-product">
             <div className="best-product__count">
-                <img src="img/producticon-01.png" alt="" />
+                <img src={imgCount} alt="" />
             </div>
             <a href="" className="best-product__image">
-                <img src="img/best-image-01.png" alt="" />
+                <img src={img} alt="" />
             </a>
             <a href="" className="best-product__cta">
                 <span className="best-product__cta-text">

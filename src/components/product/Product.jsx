@@ -3,11 +3,11 @@ import { AiFillHeart } from "react-icons/ai";
 
 import "./product.scss";
 
-const Product = () => {
+const Product = ({ img }) => {
     return (
         <div className="product">
             <a className="product__img">
-                <img src="img/img-01.png" alt="" />
+                <img src={img} alt="" />
             </a>
             <div className="product__info">
                 <a className="product__title">[what happen] How to create</a>

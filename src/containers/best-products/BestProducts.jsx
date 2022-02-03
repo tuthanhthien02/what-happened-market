@@ -17,9 +17,18 @@ const BestProducts = () => {
                 </p>
             </div>
             <div className="best-products__list">
-                <BestProduct />
-                <BestProduct />
-                <BestProduct />
+                <BestProduct
+                    img="img/best-image-01.png"
+                    imgCount="img/producticon-01.png"
+                />
+                <BestProduct
+                    img="img/best-image-02.png"
+                    imgCount="img/producticon-02.png"
+                />
+                <BestProduct
+                    img="img/best-image-03.png"
+                    imgCount="img/producticon-03.png"
+                />
             </div>
         </section>
     );
