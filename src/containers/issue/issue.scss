@@ -1,17 +1,20 @@
 @import "../../styles/styles.scss";
 
 .issue {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: $bg-secondary;
+    overflow-x: hidden;
 
     &__content {
         text-align: center;
         margin-top: 158px;
         padding-left: 16px;
         padding-right: 16px;
+        z-index: 20;
     }
 
     &__title {
@@ -37,9 +40,84 @@
         margin-bottom: 128px;
     }
 
+    &__bg {
+        position: absolute;
+        z-index: 5;
+    }
+
+    &__bg-01 {
+        top: 14%;
+        right: 2.8%;
+    }
+
+    &__bg-02 {
+        top: 4%;
+        right: 3%;
+    }
+
+    @media screen and (max-width: $breakpoint-lg) {
+        &__bg-01 {
+            top: 14%;
+            right: -0.2%;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        &__bg-02 {
+            top: 6%;
+            right: 1%;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-md) {
+        &__bg-01 {
+            top: 14%;
+            right: -8.2%;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        &__bg-02 {
+            top: 6%;
+            right: -9%;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+
     @media screen and (max-width: 668px) {
         &__title {
             font-size: $text-4xl;
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+        &__bg-01 {
+            top: 7%;
+            right: -9.2%;
+
+            img {
+                width: 70%;
+            }
+        }
+
+        &__bg-02 {
+            top: -1%;
+            right: -8%;
+
+            img {
+                width: 70%;
+            }
         }
     }
 }

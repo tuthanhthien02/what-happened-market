@@ -18,6 +18,12 @@ const Issue = () => {
                 </div>
             </div>
             <HotBrandSlider />
+            <div className="issue__bg issue__bg-01">
+                <img src="img/news-object-02.png" alt="" />
+            </div>
+            <div className="issue__bg issue__bg-02">
+                <img src="img/news-object-03_2.png" alt="" />
+            </div>
         </section>
     );
 };
